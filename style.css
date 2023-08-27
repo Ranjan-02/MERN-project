@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #eee;
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+    width: 600px;
+    margin: 40px auto;
+}
+
+.article {
+    background: #fff;
+    padding: 10px;
+    position: relative;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 10px rgb(0 0 0 / 35%);
+}
+
+.question-btn {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: 5px;
+    top: 15px;
+    background: #dfaf47;
+    color: #fff;
+    text-align: center;
+    line-height: 25px;
+    cursor: pointer;
+}
+
+.question {
+
+    padding: 5px 0px;
+
+    margin-bottom: 0px;
+
+    font-weight: bold;
+
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-family: 'Redressed', cursive;
+    text-align: center;
+    font-size: 40px;
+    color: #dac96d;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid rgb(255 255 255 / 73%);
+    padding-bottom: 10px;
+}
+
+.text-content {
+    font-size: 14px;
+    line-height: 25px;
+
+}
+
+.question-btn:hover {
+    background: #a825d2;
+}
+
+/* hide show buttons */
+.show-text .plus-icon {
+    display: none;
+}
+
+.show-text .minus-icon {
+    display: inline-block;
+}
+
+.minus-icon {
+    display: none;
+}
+
+/* hide show content */
+.show-text .text-content {
+    display: block;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+}
+
+.text-content {
+    display: none;
+}
