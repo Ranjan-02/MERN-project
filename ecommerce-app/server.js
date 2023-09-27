@@ -2,7 +2,7 @@
 
 import express from "express";
 import colors from "colors";
-import dotenv from "dotenv"
+import dotenv from "dotenv";
 
 //asign express
 
